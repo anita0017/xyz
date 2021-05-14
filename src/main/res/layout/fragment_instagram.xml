@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstagramFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <WebView
+        android:id="@+id/webV"
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="99dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:text="hey" />
+
+    <EditText
+        android:id="@+id/SVbox"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hi"
+        android:inputType="text|textPersonName"
+        android:autofillHints="hihi"
+        />
+</RelativeLayout>

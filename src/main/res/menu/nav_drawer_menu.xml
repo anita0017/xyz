@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_darshan_id"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="खाटू श्याम के आज के दर्शन"
+/>
+        <item
+            android:id="@+id/nav_saadhna_id"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="श्री श्याम नाम साधना" />
+        <item
+            android:id="@+id/nav_chalisa_id"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="श्री श्याम चालीसा" />
+        <item
+            android:id="@+id/nav_bank_id"
+            android:title="श्री श्याम नाम बैंक उद्देश्य"
+            android:icon="@drawable/ic_book_black_24dp"
+            />
+        <item
+            android:id="@+id/nav_mahima_id"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="श्री श्याम महिमा" />
+        <item
+            android:id="@+id/nav_feedback_id"
+            android:icon="@drawable/ic_publish_black_24dp"
+            android:title="फीडबैक" />
+        <item
+            android:id="@+id/nav_help_id"
+            android:title="हेल्प"
+            android:icon="@drawable/ic_photo_black_24dp"
+            />
+    </group>
+
+    <item android:title="Social">
+        <menu>
+
+            <item
+                android:id="@+id/nav_facebook_id"
+                android:title="फेसबुक"
+                android:icon="@drawable/ic_delete_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_twitter_id"
+                android:title="ट्विटर"
+                android:icon="@drawable/ic_delete_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_insta_idd"
+                android:title="इंस्टाग्राम"
+                android:icon="@drawable/ic_delete_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_utube_idd"
+                android:title="यूट्यूब"
+                android:icon="@drawable/ic_delete_black_24dp"
+                />
+
+        </menu>
+    </item>
+
+
+
+</menu>
